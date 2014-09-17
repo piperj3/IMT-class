@@ -1,6 +1,6 @@
 IMT-class
 =========
-CReated by prof. Daniel R. Ramírez Rebollo
+Created by prof. Daniel R. Ramírez Rebollo piperj3[at]gmail[dot]com
 Codes for IMT introductory class
 ITESM CCM
 México City
