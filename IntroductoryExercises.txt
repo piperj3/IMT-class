@@ -11,7 +11,7 @@ for i in range(w): print(">"+" "*(w-i)+"."*i*2" "*(w-i)+"<")
 ***EX3***
 
 import pygame
-deepblue=(26,0255) #RGB color space, you could change here the numbers for you to have different colors
+deepblue=(26,0,255) #RGB color space, you could change here the numbers for you to have different colors
 mintcream=(254,255,250)
 pygame.init()
 size=(200,200) #window size for your GUI
