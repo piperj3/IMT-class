@@ -1,0 +1,36 @@
+***EX1***
+
+w=20
+print(w)
+
+***EX2***
+
+w=20
+for i in range(w): print(">"+" "*(w-i)+"."*i*2" "*(w-i)+"<")
+
+***EX3***
+
+import pygame
+deepblue=(26,0255) #RGB color space, you could change here the numbers for you to have different colors
+mintcream=(254,255,250)
+pygame.init()
+size=(200,200) #window size for your GUI
+surface=pygame.display.set_mode(size)
+surface.fill(deepblue)
+pygame.display.update()
+#after doing this very color change the line 19 argument for mintcream instead of deepblue and retry.
+
+***EX3***
+
+import pygame
+deepblue=(26,0255) #RGB color space, you could change here the numbers for you to have different colors
+mintcream=(254,255,250)
+pygame.init()
+size=(200,200) #window size for your GUI
+surface=pygame.display.set_mode(size)
+surface.fill(deepblue)
+position=(100,50)
+radius=20
+linewidth=3
+pygame.draw.circle(surface,mintcream,position,radius,linewidth) #this will draw you a circle with the arguments given
+pygame.display.update()
